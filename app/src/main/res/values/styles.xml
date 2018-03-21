@@ -1,0 +1,76 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--book_list_items.xml-->
+    <style name="bookTitle">
+        <item name="android:textColor">@color/text</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="authorName">
+        <item name="android:paddingLeft">24dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:textColor">@color/secondaryText</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="publishDate">
+        <item name="android:paddingLeft">50dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:textColor">@color/secondaryText</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--activity_main.xml-->
+    <style name="searchInput">
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_toLeftOf">@+id/search_button</item>
+        <item name="android:textColorHint">@color/secondaryText</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:hint">@string/search_hint</item>
+        <item name="android:inputType">text</item>
+        <item name="android:paddingLeft">@dimen/activity_horizontal_margin</item>
+    </style>
+
+    <style name="searchButton">
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:paddingRight">@dimen/activity_horizontal_margin</item>
+    </style>
+
+    <style name="progressBar">
+        <item name="android:layout_below">@id/search_input</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:visibility">invisible</item>
+        <item name="android:inputType">text</item>
+        <item name="android:paddingLeft">@dimen/activity_horizontal_margin</item>
+    </style>
+
+    <style name="noInternet">
+        <item name="android:layout_below">@id/search_input</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <style name="noBooks">
+        <item name="android:layout_below">@id/search_input</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+</resources>

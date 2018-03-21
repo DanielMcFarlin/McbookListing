@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_horizontal_margin">
+    <!--How the BookList items looks-->
+    <TextView
+        android:id="@+id/book_name"
+        style="@style/bookTitle"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        tools:text="The Universe Next Door" />
+
+    <TextView
+        android:id="@+id/author_name"
+        style="@style/authorName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="James W. Sire" />
+
+    <TextView
+        android:id="@+id/publish_date"
+        style="@style/publishDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="2004" />
+
+</LinearLayout>
